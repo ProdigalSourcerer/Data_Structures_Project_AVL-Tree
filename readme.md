@@ -5,10 +5,10 @@ Nevertheless, my portion of the project was to develop the abstract data type fo
 The solution is a combination of an additional queue attached to the header structure, and a recursive search algorithm that branches when it finds a result. That is for every node examined that is _not_ a match for the search term, the ordinary binary search rules apply. For every node that _is_ a match however, the search first adds the matching node to the results queue, and then recursively searches both child subtrees.
 
 My work on this project is found in the following files:
--`AVL_ADT.c`
--`AVL_ADT.h`
--`linkListADT.c`
--`linkListADT.h`
--`queue_ADT.c`
--`queue_ADT.h`
--`iain.c` (not much actual work here... just a utility I had built previously I provided to the team lead for her use)
+*`AVL_ADT.c`
+*`AVL_ADT.h`
+*`linkListADT.c`
+*`linkListADT.h`
+*`queue_ADT.c`
+*`queue_ADT.h`
+*`iain.c` (not much actual work here... just a utility I had built previously I provided to the team lead for her use)
